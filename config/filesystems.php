@@ -57,10 +57,10 @@ return [
 
         's3' => [
             'driver' => 's3',
-            'key' => env('AKIAJDHGW54GRJCEL7TQ'),
-            'secret' => env('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'),
-            'region' => env('ap-southeast-1'),
-            'bucket' => env('chuanfong.test.bucket'),
+            'key' => env('AWS_KEY'),
+            'secret' => env('AWS_SECRET'),
+            'region' => env('AWS_REGION'),
+            'bucket' => env('AWS_BUCKET'),
         ],
 
     ],
